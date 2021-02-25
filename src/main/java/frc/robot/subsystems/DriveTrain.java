@@ -97,7 +97,7 @@ differentialDrive1.setMaxOutput(1.0);
 
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
-    public void driveAuto(double xSpeed, double zRotation){
+    public void drive(double xSpeed, double zRotation){
         differentialDrive1.arcadeDrive(xSpeed, zRotation);
     }
 
